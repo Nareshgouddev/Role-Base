@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { 
   Box,
   Button,
@@ -60,7 +60,7 @@ const RoleList = () => {
               ))}
             </tbody>
           </Table>
-        </TableContainer>
+      </TableContainer>
       </Paper>
 
       <AddRoleModal
